@@ -1,0 +1,258 @@
+*{
+		background-color:#cde3eb; /* gives color of the bg */
+	}
+ul.navbar {  /* decorates the navbar */
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color:#66a15d;
+	}
+
+	li.navbar1 { /* sets position of navbar options */
+		float: right;
+    }
+
+    li a { /* settings of navbar texts */
+    	display: block;
+    	color: whitesmoke;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	font-family: 'Poppins';
+    	background-color:#66a15d ;
+    }
+
+    li a:hover { /* sets color of navbar when hovered */
+    	background-color:#9ab9bd ;
+    }
+
+    .icon img { /* sets position of logo/icon */
+    	margin-top: 1px;
+    	position: absolute;
+    	background-color:#66a15d ;
+    }
+
+    .heading{  /* sets position of heading */
+  display: inline-block;
+  font-family: 'Lato';
+  font-size: 60px;
+  margin-left: 100px;
+  
+}
+
+.typed {  /* sets settings of heading */
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(30, end);
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {  /* sets animation of heading */
+  from { width: 0 }
+  to { width: 100% }
+}
+
+    #history1 { /* changes look of button */
+    	text-align: center;
+    	text-decoration: none;
+			font-size: 20px;
+			font-family: 'Lato';
+			font-weight: 200;
+			background-color: #9ab9bd ;
+			border: solid border;
+			margin-right: 300px;
+			margin-left: -400px;
+			padding: 10px;
+
+    }
+
+    #history1:hover{ /* sets hover color of history button */
+    	background-color: #66a15d;
+    }
+
+
+    a#history1:link { /* gives color of link */
+    	text-decoration: none;
+    	color: white;
+    }
+    a#history1:visited { /* gives color of link when visited */
+    	text-decoration: none;
+    	color: whitesmoke;
+    }
+
+
+    .pics { /* sets pic top padding to 100px */
+    	padding-top: 200px;
+    }
+    .image1 { /* sets location of images */
+		margin-left: 208px;
+	}
+	.images { /* sets location of images */
+		margin-left: 10px;
+	}
+	.image4 { /* sets location of images */
+		margin-left: 10px;
+	}
+
+    p#history {
+    	text-align: center;
+    	font-family: 'Lato';
+    	font-size: 15px;
+    	padding: 50px;
+    	border: solid;
+    	margin: 50px;
+    }
+
+
+
+    /* Style the icons */
+      .icon {
+        width: 64px;
+        height: 64px;
+        cursor: pointer;
+      }
+
+      /* facebook icon */
+      .facebook {
+        background-image: url('img1.png');
+        background-position: -93px -170px; 
+        width: 52px;
+        height: 52px;
+       
+
+      }
+       .facebook:hover {
+        background-image: url('img1.png');
+        background-position: -93px -38px; 
+        width: 52px;
+        height: 52px;
+      }
+
+
+      /* youtube icon */
+      .youtube {
+        background-image: url('img1.png');
+        background-repeat: no-repeat;
+        background-position: -93px -230px;
+        width: 52px;
+        height: 52px;
+        
+      }
+
+      .youtube:hover {
+        background-image: url('img1.png');
+        background-repeat: no-repeat;
+        background-position: -93px -98px;
+        width: 52px;
+        height: 52px;
+      }
+
+      /* instagram icon */
+      .instagram {
+        background-image: url('img1.png');
+        background-repeat: no-repeat;
+        background-position: -174px -170px;
+        width: 52px;
+        height: 52px;
+      
+      }
+
+      .instagram:hover {
+        background-image: url('img1.png');
+        background-repeat: no-repeat;
+        background-position: -175px -38px;
+        width: 52px;
+        height: 52px;
+      }
+
+      .link{
+      	padding: 5px 10px 5px 10px;
+
+      }
+      footer{ /* sets settings and design of footer */
+    	
+    	height: 50px;
+    	display: flex;
+    	justify-content: right;
+    	align-items: center;
+    	background: #66a15d;
+    	padding: 20px;
+    }
+
+  
+
+    #why2 { /* sets location and settings of paragraph */
+    	margin-top: 100px;
+    	margin-left: 120px;
+	margin-bottom: 60px;
+	margin-right: 100px;
+	text-align: left;
+	color: black;
+	font-size: 16px;
+	font-family: 'Lato';
+    }
+ 
+    .waterp { /* sets location of image */
+	height: 210px;
+	width: 430px;
+	margin-right: 120px;
+	margin-left: 50px;
+	margin-top: 50px;
+	float: right;
+}
+
+    #why3 { /* sets location and settings of paragraph */
+    	
+    	margin-right: 120px;
+	margin-top: 30px;
+	margin-bottom: 28px;
+	text-align: right;
+	color: black;
+	font-size: 16px;
+	font-family: 'Lato';
+    }
+
+    .waterc { /* sets location of image */
+    height: 200px;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 120px;
+	margin-right: 50px;
+	float: left;
+    }
+
+    .clean { /* sets location of image */
+    	height: 400px;
+	width: 400px;
+	margin-top: 20px;
+	margin-left: 120px;
+	margin-right: 50px;
+	float: left;
+    }
+
+    .clean1 { /* sets location and settings of paragraph */
+
+    	margin-right: 120px;
+	margin-top: 200px;
+	text-align: right;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Lato';
+	transform: rotateX(180deg);
+    }
+
+    .clean2 {
+    	margin-right: 120px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	text-align: right;
+	color: black;
+	font-size: 16px;
+	font-family: 'Lato';
+    }
+   

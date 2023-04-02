@@ -1,0 +1,40 @@
+*{
+		background-color:#cde3eb; /* gives color of the bg */
+		font-family: arial;
+		text-align: center;
+	}
+ul.navbar {  /* decorates the navbar */
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color:#66a15d;
+	}
+
+	li.navbar1 { /* sets position of navbar options */
+		float: right;
+    }
+
+    li a { /* settings of navbar texts */
+    	display: block;
+    	color: whitesmoke;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	font-family: 'Poppins';
+    	background-color:#66a15d ;
+    }
+
+    li a:hover { /* sets color of navbar when hovered */
+    	background-color:#9ab9bd ;
+    }
+
+h1 {
+	margin-top: 200px;
+	text-align: center;
+}
+
+
+.footer {
+	background-color: #66a15d;
+}
